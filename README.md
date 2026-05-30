@@ -180,9 +180,10 @@ class JerinJose:
 
 | Project | Stack | Highlights |
 |---------|-------|------------|
-| [**Wazuh SIEM Detection Lab**](https://github.com/Jery481-rev) | Wazuh · Ubuntu · Sysmon · Windows · Linux | Multi-endpoint home lab; authored **5 custom detection rules** mapped to MITRE ATT&CK (T1110, T1059.001, T1136.001, T1190); ingested Windows Security, Sysmon, Linux auth, and Apache/Nginx logs; produced full portfolio with architecture diagram & lessons-learned log |
-| [**Microsoft Sentinel Detection Lab**](https://github.com/Jery481-rev) | Microsoft Sentinel · KQL · Entra ID | Built KQL detections for brute-force, impossible-travel, and suspicious sign-in scenarios; mapped to **T1110, T1078, T1556**; simulated attacks, investigated incidents end-to-end, and iterated on detection logic |
-| [**Entra ID Identity Security Lab**](https://github.com/Jery481-rev) | Microsoft Entra ID · PowerShell · Microsoft Graph · PIM | Designed tenant with Conditional Access, Identity Protection risk policies, MFA enforcement, and PIM; automated joiner/leaver provisioning; documented structured identity security baseline |
+| [**Homelab Detection & Response Portfolio**](https://github.com/Jery481-rev/Homlab-Detection-response-portfolio) | Microsoft Sentinel · KQL · Wazuh · MITRE ATT&CK | Full detection & response portfolio — KQL detections, threat hunting workbooks, MITRE ATT&CK mapping, incident reports, and response playbooks; end-to-end detection lifecycle from rule writing to investigation and tuning |
+| [**SOC Analyst Journey**](https://github.com/Jery481-rev/SOC-Analyst-Journey) | Wazuh · Sysmon · Windows · Linux · Ubuntu | Multi-endpoint Wazuh SIEM home lab; authored **5 custom detection rules** (T1110, T1059.001, T1136.001, T1190); ingested Windows Security, Sysmon, Linux auth, and Apache/Nginx logs; full portfolio with architecture diagram & lessons-learned log |
+| [**SecPortfolio**](https://github.com/Jery481-rev/SecPortfolio) | Microsoft Entra ID · PowerShell · Microsoft Graph · PIM | Entra ID tenant with Conditional Access, Identity Protection risk policies, MFA enforcement, and PIM; automated joiner/leaver provisioning via PowerShell & Microsoft Graph; documented structured identity security baseline |
+| [**CCNA Portfolio**](https://github.com/Jery481-rev/ccna-portfolio) | TCP/IP · DNS · DHCP · Subnetting · Routing · Switching | Networking fundamentals portfolio covering core protocols, subnetting, VLANs, routing, and switching — reinforcing the network knowledge underpinning SOC triage and traffic analysis |
 
 </div>
 
@@ -227,6 +228,7 @@ class JerinJose:
 🎯 KQL & Threat Hunting → Advanced query logic · Scheduled analytics rules · Hunting workbooks
 🔬 Detection Engineering → Sigma rule authoring · Rule lifecycle · Tuning & validation
 🧠 MITRE ATT&CK         → TTP deep-dives · Navigator mapping · Adversary emulation planning
+🌐 CCNA Networking      → Subnetting · VLANs · Routing & Switching · TCP/IP deep-dives
 🏠 Home Lab Expansion   → Elastic SIEM · Velociraptor · Network detection with Zeek
 ```
 
